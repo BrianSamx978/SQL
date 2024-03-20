@@ -43,3 +43,8 @@ SELECT avg(price)
 FROM superstore
 WHERE category="Electronics"
 
+#Show a statistic about the minimum, max, average, and total stock quantity. 
+SELECT min(stock_quantity),max(stock_quantity),avg(stock_quantity), sum(stock_quantity)
+FROM superstore
+WHERE category="Electronics"
+
